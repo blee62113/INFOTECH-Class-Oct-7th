@@ -1,0 +1,81 @@
+body {
+    background-color:#f7f7f7;
+    color: #393f4d;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0 24px;
+}
+a {
+    color: #A42F17;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.cv-table {
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 700px;
+}
+.cv-table td {
+    padding: 10px 14px;
+    vertical-align: top;
+}
+h1, h2 {
+    font-weight: lighter;
+    font-size: 1.6em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 60px;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navigation {
+   text-align: right;
+   margin-top: 16px;
+   margin-bottom: 40px;
+}
+.navigation a {
+    margin-left: 34px;
+    font-size: 1.2em;
+}
+.navigation a.current {
+    color: #A42F17
+}
+.navigation a.page-name {
+    font-size: 1.4em;
+    margin-left: 0;
+    float: left;
+}
+.portrait {
+    float: right;
+    margin-left: 30px;
+}
+h2 {
+    clear: both;
+}
+.work {
+    margin-right: 330px;
+}
+.contact-table {
+    border: 1px solid #d9d9d9;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-table td {
+    border: 1px solid #d9d9d9;
+    padding: 10px 14px;
+}
